@@ -111,7 +111,7 @@ public class Formulari extends JFrame {
     }
     public Posidonia posidonia;
     private Posidonia guardarposdb(String especie, String habitat, String tipo) {
-        Tiburon tiburon =null;
+       
         Connection conn = null;
         PreparedStatement pstatement = null;
         ResultSet rs = null;
